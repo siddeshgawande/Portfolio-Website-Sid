@@ -1,8 +1,7 @@
 import {
   FaGithub,
-  FaInstagram,
+  FaStackOverflow,
   FaLinkedinIn,
-  FaXTwitter,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -60,27 +59,26 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/siddeshgawande" target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com" target="_blank">
+          <a href="https://linkedin.com/in/siddesh-gawande-03879a191" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com" target="_blank">
-            <FaXTwitter />
-          </a>
-        </span>
-        <span>
-          <a href="https://www.instagram.com" target="_blank">
-            <FaInstagram />
+          <a href="https://stackoverflow.com" target="_blank">
+            <FaStackOverflow />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a
+        className="resume-button"
+        href="/Siddesh_Gawande_Resume_2026.pdf"
+        download="Siddesh_Gawande_Resume_2026.pdf"
+      >
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

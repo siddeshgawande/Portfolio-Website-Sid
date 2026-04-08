@@ -6,9 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Results-driven software developer with 2+ years of experience
+          building high-performance applications using React Native and modern
+          web technologies. Skilled at leveraging AI tools to improve
+          productivity, streamline workflows, and reduce development time while
+          delivering scalable, user-friendly features across web and mobile
+          platforms.
         </p>
       </div>
     </div>
